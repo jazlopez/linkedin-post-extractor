@@ -1,0 +1,32 @@
+<?php
+/**
+ * Jaziel Lopez <juan.jaziel@gmail.com>
+ * Software Developer
+ * Tijuana Area, Mexico, 11/2/17 9:37 PM
+ *
+ * https://developer.linkedin.com/docs/oauth2
+ */
+
+$config = [
+
+	/**
+	 * The value of this field should always be:  code
+	 */
+	'response_type' => '',
+
+	/**
+	 * The "API Key" value generated when you registered your application.
+	 */
+	'client_id' => '',
+
+	/**
+	 * The URI your users will be sent back to after authorization.
+	 * This value must match one of the defined OAuth 2.0 Redirect URLs in your application configuration.
+	 */
+	'redirect_uri' => urlencode(''),
+
+	/**
+	 * A unique string value of your choice that is hard to guess. Used to prevent CSRF.
+	 */
+	'state' => bin2hex(random_bytes(16))
+];

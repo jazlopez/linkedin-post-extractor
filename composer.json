@@ -1,0 +1,13 @@
+{
+    "name": "jlopezmx/linkedin-post-extractor",
+    "description": "LinkedIn Post Extractor",
+    "authors": [
+        {
+            "name": "Jaziel Lopez",
+            "email": "juan.jaziel@gmail.com"
+        }
+    ],
+    "require": {
+        "paragonie/random_compat": "^2.0"
+    }
+}
