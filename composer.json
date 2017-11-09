@@ -8,6 +8,8 @@
         }
     ],
     "require": {
-        "paragonie/random_compat": "^2.0"
+        "paragonie/random_compat": "^2.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/http-foundation": "^3.3"
     }
 }
