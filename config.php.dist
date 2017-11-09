@@ -20,6 +20,11 @@ $config = [
 	'client_id' => '',
 
 	/**
+     * The "API Secret" value generated when you registered your application.
+    */
+    'client_secret' => '',
+
+	/**
 	 * The URI your users will be sent back to after authorization.
 	 * This value must match one of the defined OAuth 2.0 Redirect URLs in your application configuration.
 	 */
